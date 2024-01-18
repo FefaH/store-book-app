@@ -9,6 +9,7 @@ const BookForm = ({onSubmit}) => {
         bookPrice: '',
         bookDate: '',
     })
+    
     const handleChange = (e) => {
         const {name, value} = e.target;
         setBook((prevBook) => ({
